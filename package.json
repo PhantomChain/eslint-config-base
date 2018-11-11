@@ -1,0 +1,19 @@
+{
+  "name": "@arkecosystem/eslint-config-base",
+  "description": "ESLint configuration for the Ark Ecosystem.",
+  "version": "0.1.0",
+  "contributors": [
+    "Brian Faust <brian@ark.io>"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --fix ./lib"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.1"
+  }
+}
